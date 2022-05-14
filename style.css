@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h2 {
+  width: 40%;
+  font-size: 35px;
+  margin: auto;
+  padding: 15px;
+  text-decoration: underline;
+  color: red;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 5ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: onAnimation;
+}
+@keyframes onAnimation {
+  0% {
+    color: red;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: yellow;
+  }
+}
+#para {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px;
+  font-weight: bold;
+  width: 80%;
+  height: 65vh;
+  text-align: justify;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+button {
+  position: absolute;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+#red {
+  background-color: red;
+}
+#red:hover {
+  border: 1px solid red;
+  background-color: #fa2121;
+}
+#green {
+  background-color: green;
+  margin-left: 500px;
+}
+#green:hover {
+  border: 1px solid green;
+  background-color: rgb(9, 170, 9);
+}
+#blue {
+  background-color: blue;
+  margin-left: 800px;
+}
+#blue:hover {
+  border: 1px solid blue;
+  background-color: rgb(50, 50, 252);
+}
+#yellow {
+  background-color: yellow;
+  margin-left: 1100px;
+}
+#yellow:hover {
+  border: 1px solid yellow;
+  background-color: rgb(248, 248, 38);
+}
+#red:hover,
+#green:hover,
+#blue:hover,
+#yellow:hover {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
